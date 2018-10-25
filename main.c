@@ -49,8 +49,6 @@ void main () {
         if (i==nb) nizc[temp++]=na-1-j;                 //ako se i podudari s nb onda se cela sekvenca podudarila pa imamo res
     }
     
-    for (i=0; i<temp; i++){
-        printf("%u  ", nizc[i]);
-    }
+   for (i=0; i<temp; printf("%u  ", nizc[i++]));
     
 }
